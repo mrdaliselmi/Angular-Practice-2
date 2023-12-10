@@ -21,6 +21,7 @@
     "@faker-js/faker": "^7.6.0",
     "bootstrap": "^5.2.3",
     "chart.js": "^4.0.1",
+    "memo-decorator": "^2.0.1",
     "plotly.js-dist-min": "^2.6.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
