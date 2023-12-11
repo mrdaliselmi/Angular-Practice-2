@@ -14,6 +14,7 @@ export class AddUserComponent {
   userFullName: string = '';
 
   addUser() {
+    if (this.userFullName.trim() === '') return;
     this.add.emit(this.userFullName);
     this.userFullName = '';
   }
